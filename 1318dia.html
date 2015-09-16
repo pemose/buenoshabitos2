@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listview Responsive Grid - jQuery Mobile Demos</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a" id="demo-page" class="my-page">
+
+    <div data-role="header" style="text-align: center;" >
+        <img src="img/CABECERA.jpg" width="100%" alt="">
+        <div class="ui-grid-c">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b" style="text-align: center;"><img src="img/13a18.png" width="70%" alt=""></div>
+                <div class="ui-block-c"><img src="img/sol.png" width="70%" alt=""></div>
+                <div class="ui-block-d"></div>
+            </div>
+             <div class="ui-grid-b">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b" style="text-align: center;"></div>
+                <div class="ui-block-c"></div>
+            </div>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+
+        <div id="owl-example" class="owl-carousel">
+        	<!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/gimnasia.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Actividades físicas extraescolares antes de las 21h</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel -->
+             
+             <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/rutinas.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Negociar las rutinas</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel -->
+             
+            
+            
+             
+            </div>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <div class="ui-grid-b">
+                <div class="ui-block-a" style="text-align: left; padding-left: 10px;"><a href="de13a18.html"><img src="img/left.png" alt=""></a></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c" style="text-align: right; padding-right: 10px;"><a href="#"><img src="img/salir.png" alt=""></a></div>
+            </div>
+    </div><!-- /footer -->
+
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-example").owlCarousel({
+              autoPlay: false, //Set AutoPlay to 3 seconds
+              items : 10,
+              itemsDesktop : [1199,3],
+              itemsDesktopSmall : [979,3],
+              itemsMobile : [479,1],
+              singleItem : true,
+              responsiveBaseWidth : window
+            });
+        });
+    </script>
+
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listview Responsive Grid - jQuery Mobile Demos</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a" id="35antesdedormir" class="my-page">
+
+    <div data-role="header" style="text-align: center;" >
+        <img src="img/CABECERA.jpg" width="100%" alt="">
+        <div class="ui-grid-c">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b" style="text-align: center;"><img src="img/3a5.png" width="70%" alt=""></div>
+                <div class="ui-block-c"><img src="img/antes de dormir.png" width="70%" alt=""></div>
+                <div class="ui-block-d"></div>
+            </div>
+             <div class="ui-grid-b">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b" style="text-align: center;"></div>
+                <div class="ui-block-c"></div>
+            </div>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+
+        <div id="owl-example" class="owl-carousel">
+        	<!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/ducha.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Ducha</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel -->
+             
+             <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/cena familia.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Cenar en familia</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel -->
+             
+              <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/dientes.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Higiene bucodental</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel --> 
+              
+              <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/water.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Necesidades fisiológicas</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel --> 
+             
+             <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/concentración.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Lectura con poca luz</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel -->
+              
+             <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/tele.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>No ver la tele después de la ducha</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel --> 
+             
+             <!-- Cominezo imagen carrusel -->
+              <div>
+            	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><img class="ancho" src="img/choco.png"></div>
+					</div>
+              	<div class="ui-grid-solo">
+    				<div class="ui-block-a"><p>Evitar productos estimulantes (bebidas, chocolate, etc.)</p></div>
+				</div>
+              </div>
+             <!-- Final imagen carrusel -->
+             
+            
+             
+            </div>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <div class="ui-grid-b">
+                <div class="ui-block-a" style="text-align: left; padding-left: 10px;"><a href="de3a5.html"><img src="img/left.png" alt=""></a></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c" style="text-align: right; padding-right: 10px;"><a href="#"><img src="img/salir.png" alt=""></a></div>
+            </div>
+    </div><!-- /footer -->
+
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-example").owlCarousel({
+              autoPlay: false, //Set AutoPlay to 3 seconds
+              items : 10,
+              itemsDesktop : [1199,3],
+              itemsDesktopSmall : [979,3],
+              itemsMobile : [479,1],
+              singleItem : true,
+              responsiveBaseWidth : window
+            });
+        });
+    </script>
+
+</div><!-- /page -->
+
+</body>
+</html>
