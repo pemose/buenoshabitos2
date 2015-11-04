@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listview Responsive Grid - jQuery Mobile Demos</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a" id="35dia" class="my-page">
+
+    <div data-role="header" style="text-align: center;" >
+        <img src="img/CABECERA.jpg" width="100%" alt="">
+        <div class="ui-grid-c">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b" style="text-align: center;"><img src="img/3a5.png" width="70%" alt=""></div>
+                <div class="ui-block-c"><img src="img/sol.png" width="70%" alt=""></div>
+                <div class="ui-block-d"></div>
+            </div>
+             <div class="ui-grid-b">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b" style="text-align: center;"></div>
+                <div class="ui-block-c"></div>
+            </div>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+
+
+              <fieldset data-role="controlgroup">
+                <legend>1.- ¿Desayunas bien todas las mañanas?</legend>
+                <input type="radio" name="pregunta1" id="pregunta1a" value="1" checked="checked">
+                <label for="pregunta1a">No desayuno</label>
+                <input type="radio" name="pregunta1" id="pregunta1b" value="2">
+                <label for="pregunta1b">Desayuno algo rápido de camino a la escuela/Instituto</label>
+                <input type="radio" name="pregunta1" id="pregunta1c" value="3">
+                <label for="pregunta1c">Desayuno bien y sin prisa y a ser posible junto al resto de la familia.</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>2.- Tomas productos que contiene cafeína</legend>
+                <input type="radio" name="pregunta2" id="pregunta2a" value="1" checked="checked">
+                <label for="pregunta2a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta2" id="pregunta2b" value="2">
+                <label for="pregunta2b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta2" id="pregunta2c" value="3">
+                <label for="pregunta2c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>3.- ¿Cuantas horas duermes cada día?</legend>
+                <input type="radio" name="pregunta3" id="pregunta3a" value="1" checked="checked">
+                <label for="pregunta3a">Entre 6 y 8</label>
+                <input type="radio" name="pregunta3" id="pregunta3b" value="2">
+                <label for="pregunta3b">Menos de 6</label>
+                <input type="radio" name="pregunta3" id="pregunta3c" value="3">
+                <label for="pregunta3c">Entre 8 y 10 horas</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>4.- ¿Te acuestas a la misma hora de lunes a viernes?</legend>
+                <input type="radio" name="pregunta4" id="pregunta4a" value="1" checked="checked">
+                <label for="pregunta4a">Una o ninguna vez por semana</label>
+                <input type="radio" name="pregunta4" id="pregunta4b" value="2">
+                <label for="pregunta4b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta4" id="pregunta4c" value="3">
+                <label for="pregunta4c">Al menos 5 veces por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>5.- Duermes con tecnología y aparatos electrónicos dentro de la habitación. (Ebooks, TV, móvil…)</legend>
+                <input type="radio" name="pregunta5" id="pregunta5a" value="1" checked="checked">
+                <label for="pregunta5a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta5" id="pregunta5b" value="2">
+                <label for="pregunta5b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta5" id="pregunta5c" value="3">
+                <label for="pregunta5c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>6.- Tus clasificaciones escolares están:</legend>
+                <input type="radio" name="pregunta6" id="pregunta6a" value="1" checked="checked">
+                <label for="pregunta6a">Por debajo de la media de mi clase</label>
+                <input type="radio" name="pregunta6" id="pregunta6b" value="2">
+                <label for="pregunta6b">En la media de mi clase</label>
+                <input type="radio" name="pregunta6" id="pregunta6c" value="3">
+                <label for="pregunta6c">c) Por encima de la media</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>7.- ¿Te sientes nervioso e inquieto durante el día?</legend>
+                <input type="radio" name="pregunta7" id="pregunta7a" value="1" checked="checked">
+                <label for="pregunta7a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta7" id="pregunta7b" value="2">
+                <label for="pregunta7b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta7" id="pregunta7c" value="3">
+                <label for="pregunta7c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>8.- ¿Te sientes más agresivo?</legend>
+                <input type="radio" name="pregunta8" id="pregunta8a" value="1" checked="checked">
+                <label for="pregunta8a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta8" id="pregunta8b" value="2">
+                <label for="pregunta8b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta8" id="pregunta8c" value="3">
+                <label for="pregunta8c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>9.- ¿Tienes sueño durante las clases ?</legend>
+                <input type="radio" name="pregunta9" id="pregunta9a" value="1" checked="checked">
+                <label for="pregunta9a">Una dos veces por semana</label>
+                <input type="radio" name="pregunta9" id="pregunta9b" value="2">
+                <label for="pregunta9b">Entre tres y cuatro veces por semana</label>
+                <input type="radio" name="pregunta9" id="pregunta9c" value="3">
+                <label for="pregunta9c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>10.- ¿ Una vez dormido, te despiertas por la noche con facilidad?</legend>
+                <input type="radio" name="pregunta10" id="pregunta10a" value="1" checked="checked">
+                <label for="pregunta10a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta10" id="pregunta10b" value="2">
+                <label for="pregunta10b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta10" id="pregunta10c" value="3">
+                <label for="pregunta10c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>11.- ¿Tardas más de media hora en dormirse?</legend>
+                <input type="radio" name="pregunta11" id="pregunta11a" value="1" checked="checked">
+                <label for="pregunta11a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta11" id="pregunta11b" value="2">
+                <label for="pregunta11b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta11" id="pregunta11c" value="3">
+                <label for="pregunta11c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>12.- ¿Tienes dificultad para despertarte por las mañanas?</legend>
+                <input type="radio" name="pregunta12" id="pregunta12a" value="1" checked="checked">
+                <label for="pregunta12a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta12" id="pregunta12b" value="2">
+                <label for="pregunta12b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta12" id="pregunta12c" value="3">
+                <label for="pregunta12c">Una o ninguna vez por semana</label>
+              </fieldset>
+
+              <fieldset data-role="controlgroup">
+                <legend>13.- ¿Te sientes irritable las primeras horas de la mañana?</legend>
+                <input type="radio" name="pregunta13" id="pregunta13a" value="1" checked="checked">
+                <label for="pregunta13a">Al menos 5 veces por semana</label>
+                <input type="radio" name="pregunta13" id="pregunta13b" value="2">
+                <label for="pregunta13b">Entre 2 y cuatro veces por semana</label>
+                <input type="radio" name="pregunta13" id="pregunta13c" value="3">
+                <label for="pregunta13c">Una o ninguna vez por semana</label>
+              </fieldset>
+              
+              <input type="button" value="Analizar Habitos" onclick="sumarPuntos()"/>
+
+              <div id="solucion"></div>
+
+    </div> <!-- /main -->
+
+    <div data-role="footer">
+        <div class="ui-grid-b">
+                <div class="ui-block-a" style="text-align: left; padding-left: 10px;"><a href="index.html"><img src="img/left.png" alt=""></a></div>
+                <div class="ui-block-b"></div>
+            </div>
+    </div><!-- /footer -->
+
+    <script>
+      // Esta función calcula los puntos del cuestionario
+      function sumarPuntos(){
+        var solucion = document.getElementById("solucion");
+        var total = 0;
+        for (var i = 1; i <= 13; i++) {
+            var radios = parseInt($('input[name="pregunta'+ i + '"]:checked').val());
+            total = radios + total;
+            //alert(total);
+            }
+        mensaje(total);
+      }
+
+      // Esta función selecciona que mensaje se debe mostrar según la puntuación
+      function mensaje(total) {
+        if (total < 15) {
+          return imprimir('Tienes una vida muy mala');
+        } else if(total > 16 && total <28) {
+          return imprimir('Bueno, tienes habitos de vida sanos');
+        } else {
+          return imprimir('Eres una maquina');
+        }
+      }
+
+      // Esta función imprime el mensaje 
+      function imprimir (mensaje) {
+        alert(mensaje);
+      }
+      
+    </script>       
+
+</div> <!-- /page -->
+    
+
+</body>
+</html>
