@@ -190,12 +190,12 @@
 
       // Esta función selecciona que mensaje se debe mostrar según la puntuación
       function mensaje(total) {
-        if (total < 15) {
-          return imprimir('Tienes una vida muy mala');
-        } else if(total > 16 && total <28) {
-          return imprimir('Bueno, tienes habitos de vida sanos');
+        if (total < 10) {
+          return imprimir('Lo siento, deberías revisar tus hábitos. El sueño y el descanso de calidad influyen en tu estado emocional i físico. ');
+        } else if(total > 9 && total <20) {
+          return imprimir('Aunque sí que sigues correctamente algunas de las pautas recomendadas, deberías revisar aquello que no estás haciendo bien. ¡No te rindas, vas por el buen camino!');
         } else {
-          return imprimir('Eres una maquina');
+          return imprimir('¡Muy bien! Tienes unos buenos hábitos, sigue así, es importante para tu rendimiento escolar y tu estado emocional.');
         }
       }
 
