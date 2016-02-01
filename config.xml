@@ -8,7 +8,7 @@
 
         <!-- versionCode is optional and Android only -->
 
-        <preference name="phonegap-version" value="3.5.0" />
+        <preference name="phonegap-version" value="cli-5.2.0" />
 
         <name>Sample Config.xml</name>
 
@@ -16,8 +16,9 @@
         An example for phonegap build docs. 
         </description>
 
-        <author href="http://yoursite.com" email="you@youremail.com">
+        <author href="http://micubo.com" email="pedro@micubo.com">
         Your Name
         </author>
+
 
     </widget>
